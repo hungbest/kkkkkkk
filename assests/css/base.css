@@ -1,0 +1,25 @@
+
+* {
+    box-sizing: inherit;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.hideOn {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.active {
+    background-color: orangered;
+}
+
+

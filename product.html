@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/css/main.css">
+    <link rel="stylesheet" href="./assests/css/base.css">
+    <link rel="stylesheet" href="./assests/css/product.css">
+    <link rel="stylesheet" href="./assests/font/fontawesome-free-6.0.0-web/css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div id="cart">
+            <span class="cart__quantity"></span>
+            <img src="./assests/img/cart.svg" alt="" class="img__cart">
+        </div>
+
+        <div class="social-media">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <header class="header">
+
+            <!--Navbar  -->
+            <div id="#admin" class="header__navbar">
+                <div class="header__navbar-space">
+
+                </div>
+
+                <div class="header__navbar-menu">
+                    <ul class="header__navbar-menu">
+                        <li class="header__navbar-menu-item">
+                            <a class="header__navbar-menu-item-link" href="#">
+                                <i class="header__navbar-menu-item-icon header__navbar-menu-item-icon fa-solid fa-box"></i>
+                                <span class="header__navbar-menu-item-title" >Tra cứu đơn hàng</span>
+                            </a>
+                        </li>
+                        <li class="header__navbar-menu-item">
+                            <a class="header__navbar-menu-item-link" href="#">
+                                <i class="header__navbar-menu-item-icon fa-solid fa-location-dot"></i>
+                                <span class="header__navbar-menu-item-title" >Tìm cửa hàng</span>
+                            </a>
+                        </li>
+                        <li class="header__navbar-menu-item">
+                            <a class="header__navbar-menu-item-link" href="#">
+                                <i class="header__navbar-menu-item-icon fa-solid fa-heart"></i>
+                                <span class="header__navbar-menu-item-title" >Yêu thích</span>
+                            </a>
+                        </li>
+                        <li class="header__navbar-menu-item">
+                            <a class="header__navbar-menu-item-link" href="#">
+                                <i class="header__navbar-menu-item-icon fa-solid fa-user"></i>
+                                <span class="header__navbar-menu-item-title" >Đăng nhập</span>
+                            </a>
+                        </li>
+                        <li class="header__navbar-menu-item">
+                            <a class="header__navbar-menu-item-link" href="#">
+                                <i class="header__navbar-menu-item-icon fa-solid fa-cart-shopping"></i>
+                                <span class="header__navbar-menu-item-title" >Giỏ hàng (1)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Menu -->
+            <div class="header__menu">
+                <div class="header__menu-logo">
+                    <a href="./index.html" class="header__menu-logo-link">
+                        <img src="./assests/img/Logo_Ananas.png" alt="" class="header__menu-logo-img">
+                    </a>
+                </div>
+
+                <div class="header__menu-menu">
+                    <div class="header__menu-menu-span">
+                        <ul class="header__menu-menu-list">
+                            
+                                <li class="header__menu-menu-item">
+                                    <a href="./sub.html" class="header__menu-menu-link">
+                                        SẢN PHẨM
+                                        <i class="header__menu-menu-item-icon fa-solid fa-angle-down"></i>
+                                    </a> 
+                                   
+                                    
+                                    <div class="header__menu-menu-link-choice">
+                                        <div class="header__menu-menu-link-list">
+                                            <div class="header__menu-menu-link-item">
+                                                <img src="./assests/img/m1.jpg" alt="" class="header__menu-menu-link-item-img">
+                                                <p>CHO NAM</p>
+                                            </div>
+    
+                                            <div class="header__menu-menu-link-item">
+                                                <img src="./assests/img/m2.jpg" alt="" class="header__menu-menu-link-item-img">
+                                                <p>CHO NỮ</p>
+                                            </div>
+    
+                                            <div class="header__menu-menu-link-item">
+                                                <img src="./assests/img/m3.jpg" alt="" class="header__menu-menu-link-item-img">
+                                                <p>OUTLET SALE</p>
+                                            </div>
+    
+                                            <div class="header__menu-menu-link-item">
+                                                <img src="./assests/img/m4.jpg" alt="" class="header__menu-menu-link-item-img">
+                                                <p>THỜI TRANG VÀ PHỤ KIỆN</p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="header__menu-menu-link-intro">
+                                            <p class="header__menu-menu-link-text">MỌI NGƯỜI THƯỜNG GỌI CHÚNG TÔI LÀ
+                                                <span>DỨA</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    
+                                </li>
+                              
+                       
+                            
+                                <li class="header__menu-menu-item">
+                                    <a href="" class="header__menu-menu-link">
+                                        NAM
+                                        <i class="header__menu-menu-item-icon fa-solid fa-angle-down"></i>
+                                    </a> 
+                                    <div class="header__menu-menu-link-menu">
+                                        <div class="header__menu-menu-menu-link-wrapper">
+                                            <div class="header__menu-menu-link-item-1">
+                                                <h2>NỔI BẬT</h2>
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Best Seller</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>New Arrival</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Sale Off</span>
+                                                    </li>
+                                                </ul>
+        
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Bộ sưu tập</h3>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Urbas Ruler</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Track 6 Class E</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Vintas Flannel</span>
+                                                    </li>
+                                                </ul>
+        
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Coloboration</h3>
+                                                </ul>
+                                            </div>
+        
+                                            <div class="header__menu-menu-link-item-1">
+                                                <h2>GIÀY</h2>
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Dòng sản phẩm</h3>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Basas</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Vintas</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Urbas</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Pattas</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Creas</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Track 6</span>
+                                                    </li>
+                                                </ul>
+        
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Style</h3>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>High top</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Low top</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Slip On</span>
+                                                    </li>
+                                                </ul>
+        
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Tất cả giày</h3>
+                                                </ul>
+                                            </div>
+        
+                                            <div class="header__menu-menu-link-item-1">
+                                                <h2>THỜI TRANG VÀ SỰ KIỆN</h2>
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Nửa trên</h3>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Basic Tee</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Graphic Tee</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Sweatshirt</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Hoodie</span>
+                                                    </li>
+                                                </ul>
+        
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Phụ kiện</h3>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Nón</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Dây giày</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Vớ</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Ba lô & Túi</span>
+                                                    </li>
+                                                </ul>
+        
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Xem tất cả</h3>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="header__menu-menu-link-intro">
+                                            <p class="header__menu-menu-link-text">MỌI NGƯỜI THƯỜNG GỌI CHÚNG TÔI LÀ
+                                                <span>DỨA</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                            
+                                </li>
+                                
+                            
+                                <li class="header__menu-menu-item">
+                                    <a href="" class="header__menu-menu-link">
+                                        NỮ
+                                        <i class="header__menu-menu-item-icon fa-solid fa-angle-down"></i>
+                                    </a> 
+                                    <div class="header__menu-menu-link-menu">
+                                        <div class="header__menu-menu-menu-link-wrapper">
+                                            <div class="header__menu-menu-link-item-1">
+                                                <h2>NỔI BẬT</h2>
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Best Seller</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>New Arrival</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Sale Off</span>
+                                                    </li>
+                                                </ul>
+        
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Bộ sưu tập</h3>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Urbas Ruler</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Track 6 Class E</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Vintas Flannel</span>
+                                                    </li>
+                                                </ul>
+        
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Coloboration</h3>
+                                                </ul>
+                                            </div>
+        
+                                            <div class="header__menu-menu-link-item-1">
+                                                <h2>GIÀY</h2>
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Dòng sản phẩm</h3>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Basas</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Vintas</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Urbas</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Pattas</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Creas</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Track 6</span>
+                                                    </li>
+                                                </ul>
+        
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Style</h3>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>High top</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Low top</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Slip On</span>
+                                                    </li>
+                                                </ul>
+        
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                  
+                                                </ul>
+                                            </div>
+        
+                                            <div class="header__menu-menu-link-item-1">
+                                                <h2>THỜI TRANG VÀ SỰ KIỆN</h2>
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Nửa trên</h3>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Basic Tee</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Graphic Tee</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Sweatshirt</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Hoodie</span>
+                                                    </li>
+                                                </ul>
+        
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Phụ kiện</h3>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Nón</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Dây giày</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Vớ</span>
+                                                    </li>
+                                                    <li class="header__menu-menu-link-item-li">
+                                                        <span>Ba lô & Túi</span>
+                                                    </li>
+                                                </ul>
+        
+                                                <ul class="header__menu-menu-link-item-ul">
+                                                    <h3>Xem tất cả</h3>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="header__menu-menu-link-intro">
+                                            <p class="header__menu-menu-link-text">MỌI NGƯỜI THƯỜNG GỌI CHÚNG TÔI LÀ
+                                                <span>DỨA</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                            
+                                </li>
+                               
+                        
+                            
+                                <li class="header__menu-menu-item">
+                                    <a href="" class="header__menu-menu-link">
+                                        SALE OFF
+                                    <i class="header__menu-menu-item-icon fa-solid fa-angle-down"></i>
+                                    </a> 
+                                   
+                                </li>
+                          
+                        </ul>
+
+                        <img src="./assests/img/news_discover.png" alt="" class="header__menu-menu-adv">
+                    </div>
+                </div>
+
+                <div class="header__menu-search">
+                    <div class="header__menu-search-input">
+                        <i class="header__menu-search-input-icon fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Tìm kiếm" id = "search" class="header__menu-search-search">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide -->
+            <div class="header__slide">
+                <div class="header__slide-block">
+                    <button class="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <div class="header__slide-wrapper">
+                        <div class="header__slide-main">
+                            <div class="header__slide-wrapper-tab" data-index = "1">
+                                BUY MORE PAY LESS - ÁP DỤNG KHI MUA PHỤ KIỆN
+                            </div>
+                            <div class="header__slide-wrapper-tab" data-index = "2">
+                               HÀNG 2 TUẦN NHẬN ĐỔI - GIÀY NỬA NĂM BẢO HÀNH
+                            </div>
+                            <div class="header__slide-wrapper-tab" data-index = "3">
+                                FREE SHPPING HÓA ĐƠN TỪ 800K
+                             </div>
+                             <div class="header__slide-wrapper-tab" data-index = "4">
+                                BUY 2 GET 10% OFF - ÁP DỤNG VỚI TẤT CẢ BASIC TEE
+                             </div>
+                        </div>
+                    </div>
+                    <button class="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="contain">
+            <div class="contain__home">
+                <div class="contain__home-list">
+                    <span class="contain__home-item">
+                        <a href="" class="contain__home-item-link">Giày</a>
+                    </span>
+                    <span class="contain__home-item">
+                        <a href="" class="contain__home-item-link">Urbas</a>
+                    </span>
+                    <span class="contain__home-item">
+                        Urbas Ruler - Low Top
+                    </span>
+                </div>
+            </div>
+
+            <div class="contain__info">
+                <div class="contain__info-image">
+                  
+                </div>
+
+                <div class="contain__info-text">
+                    <div class="contain__info-text-wrapper">
+                        <div class="contain__info-text-info">
+                           
+                        </div>
+
+                        <div class="contain__info-text-descr">
+                            <p class="contain__info-text-descr-text">
+                                Vẻ ngoài với màu sắc tươi tắn, hiện đại.
+                                 Urbas Ruler mang trên mình một chức năng khiến không ít người bất ngờ, 
+                                 sẽ rất hữu ích dành cho những ai có thói quen dùng thước kẻ nhưng hay quên,
+                                  mặc dù độ chính xác "chưa chắc cao".
+                            </p>
+                        </div>
+
+                        <div class="contain__info-color">
+                            <span style="display: inline-block;height: 30px;margin-right: 8px; width: 30px; background-color: aquamarine;" class="contain__info-color-item"></span>
+                            <span style="display: inline-block;height: 30px;margin-right: 8px; width: 30px; background-color: rgb(148, 131, 163);" class="contain__info-color-item"></span>
+                            <span style="display: inline-block;height: 30px;margin-right: 8px; width: 30px; background-color: palevioletred;" class="contain__info-color-item"></span>
+                        </div>
+
+                        <div class="contain__info-size-quantiy">
+                            <div class="contain__info-size">
+                                <h2 class="contain__info-size-label">
+                                    SIZE
+                                </h2>
+                                <div style="width: 220px; height: 37px; border: 2px solid rgb(185, 182, 182)" class="contain__info-size-select">
+                                    <span class="contain__info-size-select-number"></span>
+                                    <span class="contain__info-size-select-icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+
+                                    <div class="contain__size">
+                                        <div class="contain__size-wrapper">
+                                            <table border="1">
+                                                <tr>
+                                                    <td>35</td>
+                                                    <td>36</td>
+                                                    <td>37</td>
+                                                    <td>38</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>39</td>
+                                                    <td>40</td>
+                                                    <td>41</td>
+                                                    <td>42</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>43</td>
+                                                    <td>44</td>
+                                                    <td>45</td>
+                                                    <td>46</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contain__info-quantity">
+                                <h2 class="contain__info-quantity-label">
+                                    SỐ LƯỢNG
+                                </h2>
+                                <div style="width: 220px; height: 37px; border: 2px solid rgb(156, 154, 154); cursor: no-drop;" class="contain__info-quantity-select">
+                                    <span class="contain__info-quantity-select-number"></span>
+                                    <span class="contain__info-quantity-select-icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+                                    <div class="contain__quantity">
+                                        <div class="contain__quantity-wrapper">
+                                            <table border="1">
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>2</td>
+                                                    <td>3</td>
+                                                    <td>4</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>6</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contain__info-add">
+                            <button class="contain__info-add-btn">THÊM VÀO GIỎ HÀNG</button>
+                            <button class="contain__info-add-heart">
+                                <i class="contain__info-add-icon fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <div class="contain__info-pay">
+                            <button class="contain__info-pay-btn">THANH TOÁN</button>
+                        </div>
+                        
+                        <span class="check hide" style="color: orangered;">Vui lòng chọn Size/Số lượng phù hợp</span>
+
+                        <div class="contain__more-info">
+                            <h2 class="contain__more-info-label btn-show">
+                                THÔNG TIN SẢN PHẨM
+                                <i class="icon-arrow fa-solid fa-angle-down"></i>
+                            </h2>
+                            <div class="contain__more-info-info information">
+                                <div class="contain__more-info-info-text">
+                                    <p>Gender: Unisex</p>
+                                    <p>Size run: 35 – 46</p>
+                                    <p>Upper: Canvas/Suede</p>
+                                    <p>Outsole: Rubber</p>
+                                </div>
+                                <div class="contain__more-info-info-image">
+                                    <img src="https://ananas.vn/wp-content/uploads/Size-chart-1-e1559209680920.jpg" alt="" class="contain__more-info-info-img">
+                                </div>
+                            </div>
+                            <div class="dashed"></div>
+                        </div>
+
+                        <div class="contain__change-product">
+                            <h2 class="contain__change-product-label btn-show">
+                                QUY ĐỊNH ĐỔI SẢN PHẨM
+                                <i class="icon-arrow fa-solid fa-angle-down"></i>
+                           </h2>
+                            <div class="contain__change-product-wrapper information">
+                                <ul class="contain__change-product-list">
+                                    <li class="contain__change-product-item">
+                                        <i class="fa-solid fa-diamond"></i>
+                                        Chỉ đổi hàng 1 lần duy nhất, mong bạn cân nhắc kĩ trước khi quyết định.
+                                    </li>
+                                    <li class="contain__change-product-item">
+                                        <i class="fa-solid fa-diamond"></i>
+                                        Thời hạn đổi sản phẩm khi mua trực tiếp tại cửa hàng là 07 ngày, kể từ ngày mua. Đổi sản phẩm khi mua online là 14 ngày, kể từ ngày nhận hàng.
+                                    </li>
+                                    <li class="contain__change-product-item">
+                                        <i class="fa-solid fa-diamond"></i>
+                                        Sản phẩm đổi phải kèm hóa đơn. Bắt buộc phải còn nguyên tem, hộp, nhãn mác.
+                                    </li>
+                                    <li class="contain__change-product-item">
+                                        <i class="fa-solid fa-diamond"></i>
+                                        Sản phẩm đổi không có dấu hiệu đã qua sử dụng, không giặt tẩy, bám bẩn, biến dạng.
+                                    </li>
+                                    <li class="contain__change-product-item">
+                                        <i class="fa-solid fa-diamond"></i>
+                                        Ananas chỉ ưu tiên hỗ trợ đổi size. Trong trường hợp sản phẩm hết size cần đổi, bạn có thể đổi sang 01 sản phẩm khác:
+                                        <br>
+                                        - Nếu sản phẩm muốn đổi ngang giá trị hoặc có giá trị cao hơn, bạn sẽ cần bù khoảng chênh lệch tại thời điểm đổi (nếu có).
+                                        <br>
+                                        - Nếu bạn mong muốn đổi sản phẩm có giá trị thấp hơn, chúng tôi sẽ không hoàn lại tiền.
+                                    </li>
+                                    <li class="contain__change-product-item">
+                                        <i class="fa-solid fa-diamond"></i>
+                                        Trong trường hợp sản phẩm - size bạn muốn đổi không còn hàng trong hệ thống. Vui lòng chọn sản phẩm khác.
+                                    </li>
+                                    <li class="contain__change-product-item">
+                                        <i class="fa-solid fa-diamond"></i>
+                                        Không hoàn trả bằng tiền mặt dù bất cứ trong trường hợp nào. Mong bạn thông cảm.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dashed"></div>
+                        </div>
+
+                        <div class="contain__insurance">
+                            <h2 class="contain__insurance-label btn-show">
+                                BẢO HÀNH THẾ NÀO ? 
+                                <i class="icon-arrow fa-solid fa-angle-down"></i>
+                            </h2>
+                            <div class="contain__insurance-wrapper information">
+                                <p class="contain__insurance-text">
+                                    Mỗi đôi giày Ananas trước khi xuất xưởng đều trải qua
+                                     nhiều khâu kiểm tra. Tuy vậy, trong quá trình sử dụng, 
+                                     nếu nhận thấy các lỗi: gãy đế, hở đế, đứt chỉ may,...
+                                     trong thời gian 6 tháng từ ngày mua hàng, mong bạn sớm 
+                                     gửi sản phẩm về Ananas nhằm giúp chúng tôi có cơ hội phục 
+                                     vụ bạn tốt hơn. Vui lòng gửi sản phẩm về bất kỳ cửa hàng
+                                      Ananas nào, hoặc gửi đến trung tâm bảo hành Ananas ngay 
+                                      trong trung tâm TP.HCM trong giờ hành chính:
+                                </p>
+    
+                                <p class="contain__insurance-hotline">
+                                    170-172, Đinh Bộ Lĩnh, P.26 , Q.Bình Thạnh, TP.HCM <br>
+                                    Hotline: 028 2211 0067
+                                </p>
+                            </div>
+                            <div class="dashed"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <footer class="footer">
+            <div class="footer__image">
+                <div class="footer__image-wrapper">
+                    <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/Store.svg" alt="" class="footer__image-img">
+                </div>
+
+                <button class="footer__image-btn">TÌM CỬA HÀNG</button>
+            </div>
+
+            <div class="footer__info">
+                <div class="footer__info-row">
+                    <div class="footer__info-list">
+                        <h3 class="footer__info-title">
+                            SẢN PHẨM
+                        </h3>
+    
+                        <ul class="footer__info-list-ul">
+                            <li class="footer__info-item">Giày nam</li>
+                            <li class="footer__info-item">Giày nữ</li>
+                            <li class="footer__info-item">Thời trang & Sự kiện</li>
+                            <li class="footer__info-item">Sale-off</li>
+                        </ul>
+                    </div>
+                    <div class="footer__info-list">
+                        <h3 class="footer__info-title">
+                            VỀ CÔNG TY
+                        </h3>
+    
+                        <ul class="footer__info-list-ul">
+                            <li class="footer__info-item">Dứa tuyển dụng</li>
+                            <li class="footer__info-item">Liên hệ nhượng quyền</li>
+                            <li class="footer__info-item">Về Ananas</li>
+                        </ul>
+                    </div>
+                    <div class="footer__info-list">
+                        <h3 class="footer__info-title">
+                            HỖ TRỢ
+                        </h3>
+    
+                        <ul class="footer__info-list-ul">
+                            <li class="footer__info-item">FAQs</li>
+                            <li class="footer__info-item">Bảo mật thông tin</li>
+                            <li class="footer__info-item">Chính sách chung</li>
+                            <li class="footer__info-item">Tra cứu đơn hàng</li>
+                        </ul>
+                    </div>
+                    <div class="footer__info-list">
+                        <h3 class="footer__info-title">
+                            LIÊN HỆ
+                        </h3>
+    
+                        <ul class="footer__info-list-ul">
+                            <li class="footer__info-item">Email góp ý</li>
+                            <li class="footer__info-item">Hotline</li>
+                            <li class="footer__info-item">0963 429 749</li>
+                        </ul>
+                    </div>
+    
+                </div>
+              
+                <div class="footer__info-row">
+                    <div class="footer__info-list">
+                        <h3 class="footer__info-title">
+                            ANANAS SOCIAL
+                        </h3>
+    
+                        <div class="footer__info-social">
+                            <span class="footer__info-social-icon"> 
+                                <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_facebook.svg" alt="" class="footer__info-social-icon-img">
+                            </span>
+                            <span class="footer__info-social-icon"> 
+                                <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_instagram.svg" alt="" class="footer__info-social-icon-img">
+                            </span>
+                            <span class="footer__info-social-icon"> 
+                                <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_youtube.svg" alt="" class="footer__info-social-icon-img">
+                            </span>
+                       </div>
+                    </div>
+                    <div class="footer__info-list">
+                        <h3 class="footer__info-title">
+                            ĐĂNG KÍ NHẬN MAIL
+                        </h3>
+                        <div class="footer__info-form">
+                            <input type="text" class="footer__info-input">
+                            <button class="footer__info-btn">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </button>
+                        </div>
+                    </div>
+    
+                    <div class="footer__info-list">
+                        <div class="footer__info-list-wrapper">
+                            <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/Logo_Ananas_Footer.svg" alt="" class="footer__info-list-wrapper-img">
+                        </div>
+                    </div>
+    
+                </div>
+
+                <div class="footer__info-row">
+                    <div class="footer__info-end">
+                        <div class="footer__info-end-left">
+                            <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/icon_bocongthuong.png" alt="" class="footer__info-end-left-img">
+                        </div>
+                        <div class="footer__info-end-right">
+                            <span class="footer__info-end-right-text">Copyright © 2022 Ananas. All rights reserved.</span>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div> 
+
+            </div>
+        </footer>
+
+
+
+        <!-- ----------- -->
+        <div class="cart-modal">
+            <div class="cart-modal-number">
+                GIỎ HÀNG <span>(0)</span>
+            </div>
+            <div class="cart-modal-list">
+                <div class="cart-modal-list-item">
+                    <div class="cart-modal-list-item-image">
+                        <img src="./assests/img/giayden.jpg" alt="" class="cart-modal-list-item-img">
+                    </div>
+
+                    <div class="cart-modal-list-item-info">
+                        <h3 class="cart-modal-list-item-name"></h3>
+                        <p class="cart-modal-list-item-price"></p>
+                        <div class="cart-modal-list-item-size">
+                            <span class="cart-modal-list-item-size-text">Size:</span>
+                            <span class="cart-modal-list-item-size-number"></span>
+                        </div>
+
+                        <div class="cart-modal-list-item-quantity">
+                            <span class="cart-modal-list-item-quantity-text">Số lượng:</span>
+                            <span class="cart-modal-list-item-quantity-number"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-modal-price">
+                <span class="cart-modal-price-text">Tổng cộng</span>
+                <span class="cart-modal-price-money"></span>
+            </div>
+
+            <div class="cart-modal-btn">
+                <button class="cart-modal-btn-1">THANH TOÁN</button>
+                <button class="cart-modal-btn-1">THÊM VÀO YÊU THÍCH</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./assests/product.js"></script>
+    <script src="./assests/chung.js"></script>
+</body>
+</html>
